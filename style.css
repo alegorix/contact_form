@@ -1,0 +1,31 @@
+/* style.css */
+/* Ce fichier contient des styles personnalisés pour compléter ou modifier ceux de Bootstrap. */
+
+body {
+    /* Un arrière-plan subtil pour toute la page */
+    background-color: #f8f9fa;
+}
+
+.card {
+    /* On ajoute une ombre douce pour que le formulaire ressorte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none; /* On retire la bordure par défaut de la carte */
+}
+
+.card-header {
+    /* Style pour l'en-tête du formulaire */
+    font-weight: bold;
+}
+
+.btn-primary {
+    /* On personnalise la couleur du bouton principal de Bootstrap */
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease; /* Transition douce pour le survol */
+}
+
+.btn-primary:hover {
+    /* Couleur du bouton au survol de la souris */
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
